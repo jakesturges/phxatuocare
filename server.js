@@ -7,7 +7,7 @@ const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb+srv://jake-admin:1234@cluster0.l6cvsvv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongoconnect", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
